@@ -24,16 +24,12 @@ p, li {
   font-size: 18px;
 }
 
-div {
-  background-color: white;
-}
-
 .btn-pink {
   text-decoration: none;
   background-color: #d8ac9c;
   color: white;
   font-size: 18px;
-  padding: 5px 20px;
+  padding: 8px 26px;
   border-radius: 6px;
 }
 
@@ -79,7 +75,6 @@ i:hover {
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: left;
   width: 50%;
   padding: 10px 10px 5px 10px;
 }
@@ -95,16 +90,21 @@ i:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px 40px 40px 40px;
   margin: 10px 0;
+  background-color: white;
 }
 
 .card-2 {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px 40px 20px 40px;
   margin: 10px 0;
+  background-color: white;
 }
 
 .card-3 {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  background-color: white;
+  padding: 20px 0;
 }
 
 /** media queries **/
